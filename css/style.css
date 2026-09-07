@@ -1,0 +1,94 @@
+:root {
+    --color-bg: #F5EDE0;
+    --color-text: #2B1B12;
+    --color-accent: #B5541F;
+    --color-accent-secondary: #5C7A5E;
+    --color-border: #8C7A5B;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: var(--color-text);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    justify-content: flex-end;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.hero h1 {
+    color: var(--color-accent);
+    font-size: 2.5rem;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.category-card {
+    background-color: white;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.category-card h3 {
+    color: var(--color-accent);
+}
+
+.category-card a {
+    color: var(--color-accent-secondary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--color-border);
+}
+
+main section h2 {
+    color: var(--color-accent-secondary);
+}
