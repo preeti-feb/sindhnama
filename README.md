@@ -22,7 +22,7 @@ Sindh's tourism information online is scattered, outdated, or written by people 
 
 ## Project Structure
 
-'''
+```
 sindhnama/
 ├── index.html
 ├── about.html
@@ -39,7 +39,7 @@ sindhnama/
 │   ├── natural/
 │   └── museum/
 └── README.md
-'''
+```
 
 ## Author
 
